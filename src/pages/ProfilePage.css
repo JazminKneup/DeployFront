@@ -1,0 +1,82 @@
+/* Contenedor principal */
+.profile-box {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilo del logo */
+  .profile-logo {
+    margin-bottom: 20px;
+  }
+  
+  .logo-image {
+    max-width: 150px; /* Tamaño máximo del logo */
+    display: block;
+    margin: 0 auto; /* Centrar el logo */
+  }
+  
+  /* Avatar */
+  .profile-avatar {
+    margin-bottom: 20px;
+  }
+  
+  .avatar-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #3f51b5;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Detalles del perfil */
+  .profile-details {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .profile-detail {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .profile-detail .label {
+    font-weight: bold;
+    color: #3f51b5;
+    margin-right: 5px;
+  }
+  
+  /* Botón de edición */
+  .edit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #303f9f;
+  }
+  
+  /* Mensajes de error y carga */
+  .error,
+  .loading {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  
